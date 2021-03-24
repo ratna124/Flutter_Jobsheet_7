@@ -13,11 +13,10 @@ class DbHelper {
     Directory directory = await getApplicationDocumentsDirectory();
     String path = directory.path + 'item.db';
     //create, read databases
-    var itemDatabase = openDatabase(path, version: 4, onCreate: _createDb);
+    var itemDatabase = openDatabase(path, version: 5, onCreate: _createDb,);
     //mengembalikan nilai object sebagai hasil dari fungsinya
     return itemDatabase;
   }
-
   //buat tabel baru dengan nama item
   void _createDb(Database db, int version) async {
     await db.execute(''
