@@ -1,5 +1,11 @@
 # database_sqllite
-
+Hasil :
+![plot](./Hasil/A.jpg)
+![plot](./Hasil/B.jpg)
+![plot](./Hasil/C.jpg)
+![plot](./Hasil/D.jpg)
+![plot](./Hasil/E.jpg)
+![plot](./Hasil/F.jpg)
 A new Flutter project.
 
 ## Getting Started
